@@ -14,3 +14,9 @@ date 12/01/24 :created file(registrationform.html)
 
 date 15/01/2024 :created file(southafricaprovinces)
 
+date 24/01/2024:
+* created home page file(homepage.html)
+   -linked the page home page with product page together
+   -create style with html
+   -insert image
+
