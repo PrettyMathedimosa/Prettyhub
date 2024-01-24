@@ -5,31 +5,111 @@
          <title> Furniture Store </title>
          <link rel="stylesheet" href="style.css">
     </head>
+          
+    <style>
+        body{
+             
+            background-image:url(istockphoto-1167010431-1024x1024.jpg);
+            background-size:cover;
+            background-position:center;
 
+
+        }
+        .border1{
+            width: 100px;
+            height:100px;
+            border: 3px purple;
+            border-style:hidden;
+            background-color: antiquewhite;
+            padding-left: 50px;
+            padding-bottom: 500px;
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+        header{
+             background-color: #333;
+             color:#fff;
+             padding:20px 60px;
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             position: sticky;
+             top:0;
+             z-index:100;
+             }
+        .logo{
+            font-size: 32px;
+            font-weight: bold;
+            text-transform:uppercase;
+             }
+        .logo a{
+             color:#fff;
+             text-decoration:none;
+               }
+        nav{
+           display: flex;
+           align-items: center;
+           }
+        nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+              }
+        nav ul li{
+                 margin-right:25px;
+                 list-style: none;
+                 }
+        nav ul li a{
+                  color:#fff;
+                  text-decoration: none;
+                  font-size: 19px;
+                  transition :0.4s ease;
+                  }
+
+        img{
+            opacity: 0.1;
+            max-width: 100px;
+            margin-bottom:100px;
+            font-size: 2px;
+            margin-top: 0px;
+
+        }
+        h1{
+            margin:auto;
+            padding-top: 50px;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        div{
+            text-align: right;
+        }
+    </style>
     <body>
         <header>
+            <!----Link page--> 
+
             <div class="logo">
-                <a href=""> Furniture Store</a>
+                <a href="">Furniture Store </a>
             </div>
-        
-        <nav>
-            <ul>
-                <li><a target="_blank" class="active" href="homepage.html">Home</a></li>
-                <li><a target="_blank" href="productpage.html">Products</a></li>
-                <li><a target="_blank" href="contactpage.html">Contacts</a></li>
-                <li><a target="_blank" href="signpage.html">Sign in</a></li>
-                <li><a target="_blank" href="searchpage.html">Search</a></li>
-            </ul>
-        </nav>
-        <div class="search">
-            <input type="text"placeholder="search">
-            <button type="submit"> Go </button>
-        </div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="productspage.html">Products</a></li>
+                    <li><a href="contactpage.html">Contact</a></li>
+
+                </ul>
+            </nav>
         </header>
-        <div class="hero">
-            <div class="hero-content">
-              <h1>Welcome to My Store</h1>
-              <p> Find your next favorite furniture today</p>
-            </div>
+
+       
+        <br>
+
+        <h2> <strong> Welcome to my Furniture Store.</strong>
+             <br> <strong>Find your favorite for your home interior design.</strong>
+        </h2>
+
+  
     </body>
     </html>
