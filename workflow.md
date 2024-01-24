@@ -19,4 +19,10 @@ date 24/01/2024:
    -linked the page home page with product page together
    -create style with html
    -insert image
+*created product page file(productspage.html)
+   -linked the page product page with home page together
+   -made the list of products
+   -inserted images of products
+   -create table with products with prices along
+
 
