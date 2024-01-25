@@ -38,4 +38,19 @@ date 24/01/2024:
 -button
 -linked the about us file with home file ,contact file and product file
 
+date 25/01/2024:
+*created signin file(signinpage.html)
+-linked the signin file with home file ,contact file,about us file,login file and product file
+-inserted button
+-created form for sign up
+-input element
+*created login file(loginpage.html)
+-linked the login file with home file ,contact file,about us file,signin file and product file
+-inserted button login
+-input element
+-check box (remember me)
+-link forgot password
+-link register
+
+
 
