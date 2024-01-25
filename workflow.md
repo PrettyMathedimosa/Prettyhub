@@ -40,17 +40,19 @@ date 24/01/2024:
 
 date 25/01/2024:
 *created signin file(signinpage.html)
--linked the signin file with home file ,contact file,about us file,login file and product file
--inserted button
--created form for sign up
--input element
+  -linked the signin file with home file ,contact file,about us file,login file and product file
+  -inserted button
+  -created form for sign up
+  -input element
+  -increase size of the
 *created login file(loginpage.html)
--linked the login file with home file ,contact file,about us file,signin file and product file
--inserted button login
--input element
--check box (remember me)
--link forgot password
--link register
+  -linked the login file with home file ,contact file,about us file,signin file and product file
+  -inserted button login
+  -input element
+  -check box (remember me)
+  -link forgot password
+  -link register
+  -increase size of the form
 
 
 
