@@ -55,6 +55,7 @@ date 25/01/2024:
   -increase size of the form
 date 26/01/2024:
 -adding icons contact file
+-fix home page (pictures)
 
 
 
