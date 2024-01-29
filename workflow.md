@@ -57,5 +57,8 @@ date 26/01/2024:
 -adding icons contact file
 -fix home page (pictures)
 
+date 29/01/2024:created file portfolio(html)
+-personal portfolio
+
 
 
