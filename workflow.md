@@ -60,5 +60,8 @@ date 26/01/2024:
 date 29/01/2024:created file portfolio(html)
 -personal portfolio
 
+date 30/01/2024
+-meeting with teddy and other interns
+
 
 
