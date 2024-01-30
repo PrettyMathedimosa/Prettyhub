@@ -68,6 +68,7 @@ date 30/01/2024
 -used of reset
 -used of dropdown
 -used check box
+-image link and image path
 
 
 
