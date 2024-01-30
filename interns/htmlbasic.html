@@ -6,11 +6,22 @@
          <title>Personal Information </title>
          <link rel="stylesheet" href="style.css">
     </head>
-    <body align ="center">
+    <body >
         <h1> ID Document Form</h1>
         <p> Hello ,Welcome to personal infomation of Charity Macheru
             <br>where it has all the information about myself.
         </p>
+        <ul>
+            <li>
+                <a href="#">Languages</a>
+                <ul class="dropdown">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Sepedi</a></li>
+                    <li><a href="#">Tshivenda</a></li>
+                    <li><a href="#">Tsonga</a></li>
+                </ul>
+            </li>
+        </ul>
         <form action="">
             <table  height ="400" width="400">
                 <tr>
@@ -25,6 +36,18 @@
                     <td>ID Number</td>
                     <td><input type ="text"placeholder ="ID Number"size ="20"></td>
                 </tr>
+                <tr>
+                    <td>Country of Birth</td>
+                    <td><input type ="text"placeholder ="Country of Birth"size ="20"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type ="text"placeholder ="Date of Birth"size ="20"></td>
+                </tr>
+                <tr>
+                    <td>Date Issued</td>
+                    <td><input type ="text"placeholder ="Date Issued"size ="20"></td>
+                </tr>
 
                 <tr>
                     <td>Gender</td>
@@ -35,8 +58,29 @@
                     </td>
                 </tr>
 
+                <tr>
+                <td><input type ="button" name="submit" value ="Submit"></td>
+                </tr>
+                
+                <tr>
+                <td><input type ="Reset" name="reset" value ="Reset"></td>
+                </tr>
+                
+             
+             
+
+
+
+
+
 
         </form>
+
+        
+        <div class="remember-forgot">
+            <label><input type="checkbox">Remember me</label>
+            &nbsp;&nbsp;&nbsp;
+        </div>
 
 
     </body>
