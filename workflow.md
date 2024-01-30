@@ -62,6 +62,7 @@ date 29/01/2024:created file portfolio(html)
 
 date 30/01/2024
 -meeting with teddy and other interns
+-created folder interns-file htmlbasics 
 
 
 
