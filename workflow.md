@@ -81,6 +81,8 @@ date 01/02/2024
 -inserted image logo
 -inserted image for bookings
 -css styling
+-font icons
+-travelguide file
 
 
 
