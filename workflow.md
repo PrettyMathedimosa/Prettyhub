@@ -79,6 +79,7 @@ date 01/02/2024
 -created travel website
 -style using html
 -inserted image logo
+inserted image for bookings
 
 
 
