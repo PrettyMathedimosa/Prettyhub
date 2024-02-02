@@ -89,6 +89,7 @@ date 02/02/2024
 -inserted form
 -used of button
 -Font icons used and input element
+-created places.html file with tables ,list
 
 
 
