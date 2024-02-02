@@ -84,5 +84,11 @@ date 01/02/2024
 -font icons
 -travelguide file
 
+date 02/02/2024
+-created contacts file
+-inserted form
+-used of button
+-Font icons used and input element
+
 
 
