@@ -92,5 +92,9 @@ date 02/02/2024
 -created places.html file with tables ,list
 -dropdown
 
+date 05/02/2024
+-meeting with teddy
+-introduction to php
+
 
 
