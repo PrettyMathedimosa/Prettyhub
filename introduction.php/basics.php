@@ -1,15 +1,15 @@
 <?php
 // PHP code goes here
 
-<?php
+//declare variables and data type
 $name = "John";
 $age = 25;
-?>
-
-<p><?php echo "My name is $name, and I am $age years old."; ?></p>
 
 
-<?php
+ echo "My name is $name, and I am $age years old."; 
+
+
+//if statement
 $score = 85;
 
 if ($score >= 90) {
@@ -19,15 +19,16 @@ if ($score >= 90) {
 } else {
     echo "C";
 }
-?>
 
 
-<?php
+
+//function
 function greet($name) {
     echo "Hello, $name!";
 }
 
 greet("Alice");
-?>
+
+
 
 ?>
