@@ -99,6 +99,7 @@ date 05/02/2024
 date 06/02/2024
 -fixing the page basics.php
 - created index.html
+-validating variables
 
 
 
