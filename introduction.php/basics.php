@@ -10,7 +10,15 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
     $Email=htmlspecialchars($_POST["email"]);
 }
  
+ 
+echo "Data submitted ";
+echo $FName;
+echo "<br>";
 
+echo $LName;
+echo "<br>";
+
+echo $Email;
 
 
 
