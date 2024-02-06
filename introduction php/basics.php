@@ -1,5 +1,9 @@
 <?php
 
+$FnameErr =" ";
+$LnameErr =" ";
+$emailErr =" ";
+
 //form handling
 if($_SERVER["REQUEST_METHOD"]=="POST")
 {
@@ -8,6 +12,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
     $FName=htmlspecialchars($_POST["Fname"]);
     $LName= htmlspecialchars($_POST["Lname"]);
     $Email=htmlspecialchars($_POST["email"]);
+}
+
+if(empty($_POST["Fname"]))
+{
+    $FnameErr = "Name is required"; 
 }
  
  
