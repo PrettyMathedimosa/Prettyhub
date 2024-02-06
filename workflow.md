@@ -96,5 +96,10 @@ date 05/02/2024
 -meeting with teddy
 -introduction to php folder ,under file basics.php
 
+date 06/02/2024
+-fixing the page basics.php
+-created index.html
+
+
 
 
