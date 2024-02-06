@@ -1,34 +1,19 @@
 <?php
-// PHP code goes here
 
-//declare variables and data type
-$name = "John";
-$age = 25;
-
-
- echo "My name is $name, and I am $age years old."; 
-
-
-//if statement
-$score = 85;
-
-if ($score >= 90) {
-    echo "A";
-} elseif ($score >= 80) {
-    echo "B";
-} else {
-    echo "C";
+//form handling
+if($_SERVER["REQUEST_METHOD"]=="POST")
+{
+    //htmlspecialchars --covents predefined characters to hmtl entities
+    //"--to avoid injecting code to the form or avoid hacking "
+    $FName=htmlspecialchars($_POST["Fname"]);
+    $LName= htmlspecialchars($_POST["Lname"]);
+    $Email=htmlspecialchars($_POST["email"]);
 }
+ 
 
 
 
-//function
-function greet($name) {
-    echo "Hello, $name!";
-}
-
-greet("Alice");
 
 
-
+//$conn->close();
 ?>
