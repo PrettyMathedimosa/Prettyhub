@@ -103,6 +103,7 @@ date 06/02/2024
 
 date 07/02/2024
 -meeting on Erd and Database System Planning
+-draw Erd on users supplies workers system
 
 
 
