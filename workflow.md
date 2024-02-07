@@ -101,6 +101,9 @@ date 06/02/2024
 - created index.html
 -validating variables and form handling
 
+date 07/02/2024
+-meeting on Erd and Database System Planning
+
 
 
 
