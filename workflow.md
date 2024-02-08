@@ -106,6 +106,9 @@ date 07/02/2024
 -draw Erd on users supplies workers system
 -Erd diagram consists of Entities,Realationshps,Attributes and interaction between entities
 
+date 08/02/2024
+-start with database system planning
+
 
 
 
