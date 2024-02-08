@@ -1,36 +1,24 @@
 <?php
 
-$FnameErr =" ";
-$LnameErr =" ";
-$emailErr =" ";
+$username = filter_input(INPUT_POST, 'username');
+$password =filter_input(INPUT_POST ,' password');
 
-//form handling
-if($_SERVER["REQUEST_METHOD"]=="POST")
-{
-    //htmlspecialchars --covents predefined characters to hmtl entities
-    //"--to avoid injecting code to the form or avoid hacking "
-    $FName=htmlspecialchars($_POST["Fname"]);
-    $LName= htmlspecialchars($_POST["Lname"]);
-    $Email=htmlspecialchars($_POST["email"]);
+if(!empty($username)){
+if(!empty($password)){
+    $host ="localhost";
+    $dbusername = "root";
+    $dbpassword = " ";
+    $dbname = "youtube";
+
+} 
+else{
+    echo "Username should not be empty";
+    die();
+}
+}  
+else{
+    echo "Username should not be empty";
+    die();
 }
 
-if(empty($_POST["Fname"]))
-{
-    $FnameErr = "Name is required"; 
-}
- 
- 
-echo "Data submitted ";
-echo $FName;
-echo "<br>";
-
-echo $LName;
-echo "<br>";
-
-echo $Email;
-
-
-
-
-//$conn->close();
 ?>
