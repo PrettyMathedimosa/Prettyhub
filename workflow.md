@@ -108,6 +108,7 @@ date 07/02/2024
 
 date 08/02/2024
 -start with database system planning
+-created database prettyshop 
 
 
 
