@@ -110,6 +110,10 @@ date 08/02/2024
 -start with database system planning
 -created database prettyshop 
 
+date 09/02/2024
+-had a meeting on ITStudentWork-IntergratedLearningPlatform
+-Going through with document Server-request and response cycle
+
 
 
 
