@@ -114,6 +114,9 @@ date 09/02/2024
 -had a meeting on ITStudentWork-IntergratedLearningPlatform
 -Going through with document Server-request and response cycle
 
+date 12/02/2024
+-had a meeting on project SDLC steps defined
+
 
 
 
