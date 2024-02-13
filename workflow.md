@@ -118,6 +118,9 @@ date 12/02/2024
 -had a meeting on project SDLC steps defined
 -created table peopleclients on phpMyAdmin using MYSQL and PDO
 
+date 13/02/2024
+-created email.php and email.html files
+
 
 
 
