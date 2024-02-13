@@ -122,6 +122,8 @@ date 13/02/2024
 -created email.php and email.html files
 -create email and password form with php
 -connection to database
+-if statement for correct password and email
+
 
 
 
