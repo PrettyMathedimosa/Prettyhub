@@ -1,4 +1,5 @@
 <?php
+
     $email = $_POST['email'];
     $password = $_POST['password'];
 
@@ -9,7 +10,8 @@
         die("Failed to connect :".$con->connect_error);
 
     } 
-    else{
+    else
+    {
         $stmt = $con->prepare("select * from peopleclients where email = ?");
         $stmt->blind_param("s",$email);
         $stmt->execute();
