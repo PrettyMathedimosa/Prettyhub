@@ -19,7 +19,7 @@
             if($data['password'] ===$password){
                  echo "<h2> Login Successfully </h2>";
             } else{
-                    echo "<h2> Invalid Email or password </h2>";
+                    echo "<h2> Invalid Email or password</h2>";
             }
         } else {
               echo "<h2> Inavild Email or Password </h2>";
