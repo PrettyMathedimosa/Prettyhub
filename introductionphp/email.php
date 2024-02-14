@@ -4,25 +4,33 @@
 
     //Database connection here
     $con = new mysqli("localhost","root"," ","test");
-    if($con->connect_error){
+    if($con->connect_error)
+    {
         die("Failed to connect :".$con->connect_error);
 
-    } else{
+    } 
+    else{
         $stmt = $con->prepare("select * from peopleclients where email = ?");
         $stmt->blind_param("s",$email);
         $stmt->execute();
         $stmt_result = $stmt->get_result();
         
-        if($stmt_result->num_rows > 0){
+        if($stmt_result->num_rows > 0)
+        {
             $data = $stmt_result->fetch_assoc();
 
-            if($data['password'] ===$password){
+            if($data['password'] ===$password)
+            {
                  echo "<h2> Login Successfully </h2>";
-            } else{
-                    echo "<h2> Invalid Email or password</h2>";
             }
-        } else {
-              echo "<h2> Inavild Email or Password </h2>";
+            else
+            {
+                echo "<h2> Invalid Email or password</h2>";
+            }
+        } 
+        else 
+        {
+            echo "<h2> Inavild Email or Password </h2>";
         }
     }
 
