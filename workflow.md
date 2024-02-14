@@ -126,6 +126,7 @@ date 13/02/2024
 
 date 14/02/2024
 -fixing errors on email.php file
+-if and else statements
 
 
 
