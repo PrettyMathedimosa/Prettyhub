@@ -124,6 +124,12 @@ date 13/02/2024
 -connection to database
 -if statement for correct password and email
 
+date 14/02/2024
+-fixing errors on email.php file
+
+
+
+
 
 
 
