@@ -128,6 +128,9 @@ date 14/02/2024
 -fixing errors on email.php file
 -if and else statements
 
+date 15/02/2024
+-update ,delete ,find and search on sql
+
 
 
 
