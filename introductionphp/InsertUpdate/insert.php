@@ -4,7 +4,7 @@
 $host = 'localhost';
 $username = 'root';
 $password = ' ';
-$database = 'clients';
+$database = ' myclients';
 
 $conn = new mysqli($host, $username, $password, $database);
 
@@ -18,7 +18,7 @@ if(isset($_POST['update'])) {
     $id = $_POST['id'];
     $new_name = $_POST['new_name'];
     
-    $sql = "UPDATE your_table SET name='$new_name' WHERE id=$id";
+    $sql = "UPDATE peopleclients SET name='$new_name' WHERE id=$id";
     if ($conn->query($sql) === TRUE) {
         echo "Record updated successfully";
     } else {
@@ -30,7 +30,7 @@ if(isset($_POST['update'])) {
 if(isset($_POST['delete'])) {
     $id = $_POST['id'];
     
-    $sql = "DELETE FROM your_table WHERE id=$id";
+    $sql = "DELETE FROM peopleclients WHERE id=$id";
     if ($conn->query($sql) === TRUE) {
         echo "Record deleted successfully";
     } else {
