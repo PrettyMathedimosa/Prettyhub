@@ -1,10 +1,10 @@
 <?php
 
 // Database connection
-$host = 'your_host';
-$username = 'your_username';
-$password = 'your_password';
-$database = 'your_database';
+$host = 'localhost';
+$username = 'root';
+$password = ' ';
+$database = 'clients';
 
 $conn = new mysqli($host, $username, $password, $database);
 
