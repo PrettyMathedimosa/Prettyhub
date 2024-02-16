@@ -131,6 +131,9 @@ date 14/02/2024
 date 15/02/2024
 -update ,delete ,find and search on sql
 
+date 16/02/2024
+-fixing crud operators 
+
 
 
 
