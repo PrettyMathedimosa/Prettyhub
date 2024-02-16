@@ -39,7 +39,8 @@ if(isset($_POST['delete'])) {
 }
 
 // Edit record
-
+if(isset($_POST['delete'])) {
+    
 
 // Close connection
 $conn->close();
