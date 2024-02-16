@@ -38,6 +38,9 @@ if(isset($_POST['delete'])) {
     }
 }
 
+// Edit record
+
+
 // Close connection
 $conn->close();
 
