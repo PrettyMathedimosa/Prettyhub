@@ -37,7 +37,7 @@ if(isset($_POST['upload'])){
                         <h4 class = "text-center"> DISPLAY IMAGE </h4>
 
                         <?php
-                            $sel = "SELECT * FROM upload";
+                            $sel = " SELECT * FROM upload";
                             $que = mysqli_query($con,$sel);
 
                             $output ="";
