@@ -1,3 +1,17 @@
+<?php
+$con = mysqli_connect("localhost","root","","image");
+
+
+
+
+
+
+?>
+
+
+
+
+
 <!DOCTYPE html>
    <html lang="en">
     <meta charset="utf-8">
@@ -13,6 +27,7 @@
                         <h3 class="text-center">UPLOAD IMAGE</h3>
                         <form class="my-5" method="post" enctype="multipart/form-data">
                             <input type="file" name="image" class="form-control">
+                            <input type="submit" name="upload" value="UPLOAD" class="btn btn-success my-3">
 
                         </form>
                     </div>
