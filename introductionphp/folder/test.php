@@ -43,7 +43,7 @@ if(isset($_POST['upload'])){
                         </form>
                     </div>
                     <div class="col-md-6">
-                        <h4 class="text-center">DISPLAY IMAGE</h4>
+                        <h4 class = "text-center">DISPLAY IMAGE</h4>
 
                         <?php
                             $sel = "SELECT * FROM upload";
