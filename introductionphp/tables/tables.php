@@ -27,4 +27,10 @@ CREATE TABLE MyGuests(
 if($conn->query($sql) === TRUE){
     echo"Table created successfully";
 }
+else{
+    echo"error creating table:".$conn->error;
+}
+
+$conn->close();
+
 ?>
