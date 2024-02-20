@@ -140,6 +140,7 @@ date 19/02/2024
 
 date 20/02/2024
 -create a MySQL Table using MySQLi and PDO
+-create connection 
 
 
 
