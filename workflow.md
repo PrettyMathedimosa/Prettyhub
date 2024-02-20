@@ -142,6 +142,7 @@ date 20/02/2024
 -create a MySQL Table using MySQLi and PDO
 -create connection
 -check connection 
+-sql to create table
 
 
 
