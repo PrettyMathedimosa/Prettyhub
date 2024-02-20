@@ -23,4 +23,8 @@ CREATE TABLE MyGuests(
     CURRENT_TIMESTAMP ON UPDATE
     CURRENT_TIMESTAMP
 )
+
+if($conn->query($sql) === TRUE){
+    echo"Table created successfully";
+}
 ?>
