@@ -144,6 +144,10 @@ date 20/02/2024
 -check connection 
 -sql to create table
 
+date 21/02/2024
+-loops
+*while Loop
+
 
 
 
