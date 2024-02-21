@@ -18,4 +18,10 @@ do{
     $y++;
 }
 while($y <= 5);
+
+//foreach loop
+$array = array("Daniel","Jane","Jacob","Nhlalala");
+foreach ($array as $loopdata){
+    echo "My name is " .$loopdata . "<br>";
+}
 ?>

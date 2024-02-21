@@ -149,6 +149,7 @@ date 21/02/2024
 *For loop
 *while Loop
 *Do While loop
+*Foreach loop 
 -increment
 
 
