@@ -146,7 +146,9 @@ date 20/02/2024
 
 date 21/02/2024
 -loops
+*For loop
 *while Loop
+-increment
 
 
 
