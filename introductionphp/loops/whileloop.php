@@ -11,5 +11,11 @@ while($x <= 5){
     $x++; 
 }
 
-
+//do while loop
+$y = 1;
+do{
+    echo "This is Do While loop <br>";
+    $y++;
+}
+while($y <= 5);
 ?>
