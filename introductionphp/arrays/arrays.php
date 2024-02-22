@@ -18,6 +18,14 @@
   echo $names[2];
   echo $names[3];
 
+  foreach($names as $index => $name){
+    ?>
+
+      <p> My Name is <?php echo $name ?> </p>
+      
+    <?php
+  }
+
 
 
 
