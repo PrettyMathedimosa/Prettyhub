@@ -154,7 +154,8 @@ date 21/02/2024
 
 date 22/02/2024
 -arrays
-*
+*Numeric or simple array
+-foreach loop
 
 
 
