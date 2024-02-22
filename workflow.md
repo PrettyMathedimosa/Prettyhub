@@ -152,6 +152,10 @@ date 21/02/2024
 *Foreach loop 
 -increment
 
+date 22/02/2024
+-arrays
+*
+
 
 
 
