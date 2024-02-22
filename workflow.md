@@ -156,6 +156,8 @@ date 22/02/2024
 -arrays
 *Numeric or simple array
 -foreach loop
+*associative array
+*multidimensional array
 
 
 
