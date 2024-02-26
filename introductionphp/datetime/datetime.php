@@ -8,7 +8,10 @@
 <body>
 
 <?php date_default_timezone_set('Asia/Mamila');?>
+
 <h1>current date :<?php echo date('y-m-d');?></h1>
+
+<h1>current time :<?php echo time('h:i:s');?></h1>
 
 
 </body>
