@@ -30,6 +30,18 @@
 
         </div>
 
+        <script>
+             let time = document.getElementById("current-timr");
+
+             setInterval(() =>{
+                let d = new Date();
+                time.innerHTML = d.toLocaleTimeString();
+             }
+
+             )
+        </script>
+
+
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
