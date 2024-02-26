@@ -18,7 +18,7 @@
 
                      <h1>current date :<?php echo date('y-m-d');?></h1>
 
-                     <h1>current time :<?php echo time('h:i:s');?></h1>
+                     <h1>current time :<?php echo time('h:i:s  a');?></h1>
 
 
                   </div>
@@ -29,6 +29,10 @@
 
 
         </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
 
 
 

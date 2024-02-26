@@ -164,6 +164,8 @@ date 23/02/2024
 
 date 26/02/2024
 -date and time continue
+-display current time
+-display current date
 
 
 
