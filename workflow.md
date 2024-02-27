@@ -167,6 +167,9 @@ date 26/02/2024
 -display current time
 -display current date
 
+date 27/02/2024
+-Absent
+
 
 
 
