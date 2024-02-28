@@ -20,7 +20,6 @@
 
                      <h1>current time :<?php echo time('h:i:s  a');?></h1>
 
-
                   </div>
 
              </div>
