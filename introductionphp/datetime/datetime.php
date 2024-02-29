@@ -47,8 +47,25 @@
 
         <?php
 
-          echo date("1");   //Thursday
+          echo date("1");   // Thursday
           echo "<br/>";
+
+          echo date("m");   // 11
+          echo "<br/>";
+
+          echo date("M");   // Nov
+          echo "<br/>";
+
+          echo date("F");   // November
+          echo "<br/>";
+
+          echo date("Y");   // 2024
+          echo "<br/>";
+
+          echo date("y");   // 29
+          echo "<br/>";
+
+
         ?>
 
 
