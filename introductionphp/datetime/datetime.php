@@ -45,6 +45,13 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
 
+        <?php
+
+          echo date("1");   //Thursday
+          echo "<br/>";
+        ?>
+
+
 
 
 
