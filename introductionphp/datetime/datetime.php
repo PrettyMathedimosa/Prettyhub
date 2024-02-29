@@ -66,7 +66,7 @@
           echo "<br/>";
 
           echo date("d/m/Y  h:i:s A");
-          echo date("d-m-Y h:i:s A")   
+          echo date("d-m-Y h:i:s A");   
           echo "<br/>";
 
           echo time();
