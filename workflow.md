@@ -175,6 +175,8 @@ date 28/02/2024
 
 date 29/02/2024
 -date() and time() php functions
+-using string formatting characters
+-date(format:string)
 
 
 
