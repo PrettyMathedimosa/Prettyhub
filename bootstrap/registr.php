@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-   <html lang="en">
-    <meta charset="utf-8">
-    <head>
-         <title> Bootstrap </title>
-         <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div>
-            <?php
+<?php
+$servername = "localhost";
+$username = "root";
+$password = " ";
+$database = "";
 
-            ?>
+//create connection
+$conn = new mysqli($servername,$username,$password,$database);
 
-        </div>
+//check if connected
+if($conn->connect_error){
+    die("not connected" .$conn->connect_error);
+}
 
-    </body>
-    </html> 
+echo "connected";
+?>
