@@ -183,6 +183,8 @@ date 01/03/2024
 -create connection
 -check connection
 -sql to create table
+-create database
+-connecting to sql
 
 
 
