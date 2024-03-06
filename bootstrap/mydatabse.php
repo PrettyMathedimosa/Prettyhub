@@ -21,4 +21,9 @@ $sql = "CREATE DATABASE    ";
 if($conn->query($sql) === TRUE){
     echo "database created successfully";
 }
+else{
+    echo "error:".$conn->connect_error;
+}
+
+$conn->close();
 ?>
