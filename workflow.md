@@ -187,7 +187,10 @@ date 01/03/2024
 -connecting to sql
 
 date 06/03/2024
--signin page php 
+-signin page php
+-navigation
+-forms,label for email,password,checkbox
+-button submit 
 
 
 
