@@ -20,6 +20,22 @@
         <form action="form">
             <div class="mb-3 mt-5">
                 <label for="email " class="form-label">Email</label>
+                <input type="email" class="form-comtrol" name='Email' placeholder="Enter your email">
+            </div>
+
+            <div class="mb-3 ">
+                <label for="password " >Password</label>
+                <input type="password"  name="passw" id ="paswd" placeholder="Enter your password">
+            </div>
+
+            <div class="form-check mb-3 ">
+                <label for="check " >
+                <input  class="form-check-input" type="checkbox" name="check"> Remember me
+                </label>
+            </div>
+
+            <button type="submit" class="btn-primary">Submit</button>
+        </form>
 
 
 
