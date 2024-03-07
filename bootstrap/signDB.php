@@ -14,4 +14,13 @@ if($conn->connect_error){
 }
 
 echo "connected <br>";
+
+$user_name  =$_POST['email'];
+$pasww = $_POST['password'];
+
+//sql insert
+$sql = "INSERT INTO ";
+
+
+$conn->close();
 ?>

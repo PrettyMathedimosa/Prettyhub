@@ -194,7 +194,8 @@ date 06/03/2024
 
 date 07/03/2024
 -sign in database file
--create coonection
+-create coonection to database
+-if statement if it is connected
 
 
 
