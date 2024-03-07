@@ -13,8 +13,14 @@
             padding:0;
             background-size:cover;
         }
+        div h1{
+            font-weight:bolder;
+        }
     </style>
     <body>
+        <nav class="navbar bg-dark navbar-dark justify-content-center">
+            <div class="container">
+                <a class="navbar-brand " href="#"> </a>
 
     </body>
     </html>
