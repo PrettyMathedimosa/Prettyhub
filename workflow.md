@@ -196,6 +196,7 @@ date 07/03/2024
 -sign in database file
 -create coonection to database
 -if statement if it is connected
+-index file for bootstrap
 
 
 
