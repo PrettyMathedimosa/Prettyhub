@@ -41,6 +41,10 @@
           <h2 style="text-align:center;">get in touch us</h2>
           <form action="">
             <div class="container p-5 my-5 border text-body bg-light">
+                <div class ="mb-3">
+                    <label for="text" class="form-label">Name</label>
+                    <input type="text" class ="form-control" placeholder="Enter name">
+                </div>
                 
 
     </body>
