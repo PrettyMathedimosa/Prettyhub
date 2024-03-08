@@ -23,8 +23,8 @@
                 <a class="navbar-brand " href="#"> </a>
                 <ul class="navbar-nav flex-row justify-content-between"style="width:400px">
                    <li class="nav-item"><a class ="nav-link" href="index.php">Home</a></li>
-                   <li class="nav-item"><a class ="nav-link" href="sign.php">Home</a></li>
-                   <li class="nav-item"><a class ="nav-link" href="login.php">Home</a></li>
+                   <li class="nav-item"><a class ="nav-link" href="sign.php">signin</a></li>
+                   <li class="nav-item"><a class ="nav-link" href="login.php">login</a></li>
                 </ul>
             </div>
         </nav>
