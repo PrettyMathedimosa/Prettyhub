@@ -21,6 +21,18 @@
         <nav class="navbar bg-dark navbar-dark justify-content-center">
             <div class="container">
                 <a class="navbar-brand " href="#"> </a>
+                <ul class="navbar-nav flex-row justify-content-between"style="width:400px">
+                   <li class="nav-item"><a class ="nav-link" href="index.php">Home</a></li>
+                   <li class="nav-item"><a class ="nav-link" href="sign.php">Home</a></li>
+                   <li class="nav-item"><a class ="nav-link" href="login.php">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+          <div class="container p-5 my-5 border bg-success">
+            <h1> Welcome</h1>
+            <p>  content   </p>
+          </div>
+                
 
     </body>
     </html>

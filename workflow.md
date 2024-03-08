@@ -198,6 +198,9 @@ date 07/03/2024
 -if statement if it is connected
 -index file for bootstrap
 
+date 08/03/2024
+-link the pages index ,sign and login
+
 
 
 
