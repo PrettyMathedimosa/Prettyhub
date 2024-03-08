@@ -32,6 +32,15 @@
             <h1> Welcome</h1>
             <p>  content   </p>
           </div>
+
+          <div class="container p-5 my-5 border">
+            <img class="">
+            <img class="">
+          </div>
+
+          <h2 style="text-align:center;">get in touch us</h2>
+          <form action="">
+            <div class="container p-5 my-5 border text-body bg-light">
                 
 
     </body>
