@@ -25,8 +25,18 @@
                        class="form-control"
                        name="password"
                        id="password">
-
             </div>
+            <div class="mb-3">
+                <label class="form-label">Select User Type:</label>
+            </div>
+
+            <select class="form-select mb-3"
+                    aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+
+            </select>
+            <button type="submit" class="btn btn-primary">Submit</button>
 
            
         </form>
