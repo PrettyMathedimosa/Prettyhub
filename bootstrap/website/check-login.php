@@ -14,10 +14,10 @@ if(isset($_POST['username']) && isset($_POST['password']) &&
       $role = test_input($_POST['role']);
 
       if(empty($username)){
-         header("Location:../inedx.php?error=User Name is Required");
+         header("Location:../inedx.php?error= User Name is Required");
 
       }else if(empty($password)){
-         header("Location: ../indexphp?error=Password is Required");
+         header("Location: ../indexphp?error= Password is Required");
 
       } else {
         echo "cool";
