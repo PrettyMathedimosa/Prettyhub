@@ -205,6 +205,10 @@ date 11/03/2024
 -create website folder
 -use of form,button,select and option to create multi user system
 
+date 12/03/2024
+-functions to test input
+-trim,stripcslashes and htmlspecialchars
+
 
 
 
