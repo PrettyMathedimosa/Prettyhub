@@ -211,6 +211,7 @@ date 12/03/2024
 
 date 13/03/2024
 -hashing the password
+-db connect ,create connection to database
 
 
 
