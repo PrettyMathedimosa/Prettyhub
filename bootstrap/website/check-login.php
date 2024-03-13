@@ -20,7 +20,9 @@ if(isset($_POST['username']) && isset($_POST['password']) &&
          header("Location: ../indexphp?error = Password is Required");
 
       } else {
-        echo "cool";
+         //hashing the password
+         $password = md5($password);
+        echo "$password";
       }
    }
    

@@ -209,6 +209,9 @@ date 12/03/2024
 -functions to test input
 -trim,stripcslashes and htmlspecialchars
 
+date 13/03/2024
+-hashing the password
+
 
 
 
