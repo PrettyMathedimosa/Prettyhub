@@ -39,7 +39,9 @@ if(isset($_POST['username']) && isset($_POST['password']) &&
                $_SESSION['name'] = $row['name']; 
                $_SESSION['id'] = $row['id'];
                $_SESSION['role'] = $row['role'];
-               $_SESSION['username'] = $row['username'];          
+               $_SESSION['username'] = $row['username']; 
+               
+               header("Location: ..//home.php");
              }  
          }
       }
