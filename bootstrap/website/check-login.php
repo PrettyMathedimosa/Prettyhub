@@ -1,5 +1,5 @@
 <?php
-
+  
 include "..//db_connect.php";
 
 if(isset($_POST['username']) && isset($_POST['password']) && 
@@ -34,7 +34,7 @@ if(isset($_POST['username']) && isset($_POST['password']) &&
          if(mysqli_num_rows($result) === 1){
             //the user name must be unique
 
-            $row = mysqli_fetch_assoc();
+            $row = mysqli_fetch_assoc();  
          }
       }
    }else {
