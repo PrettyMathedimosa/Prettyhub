@@ -16,8 +16,11 @@
            <div class ="card-body">
            <h2 class="card-title"> Card title</h2>
            <p class="card-text">some card text and make up the bulk of the card content</p>
+
+           <a href="#" class="btn btn-primary"> Go somewhere</a>
            </div>
            </div>
+           
          }
          ?>
 
