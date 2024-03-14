@@ -214,6 +214,9 @@ date 13/03/2024
 -db connect ,create connection to database
 -SQL statement
 
+date 14/03/2024
+-if statement for connection
+
 
 
 
