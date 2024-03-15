@@ -21,10 +21,12 @@ if(isset($_SESSION['username']) && isset($_SESSION['id']))
            //for admin
            <div class ="card" style="width:15rem;">
            <div class ="card-body">
-           <h2 class="card-title"> Card title</h2>
+           <h2 class="card-title"> Card title
+               <?=$_SESSION['name']?>
+           </h2>
            <p class="card-text">some card text and make up the bulk of the card content</p>
 
-           <a href="#" class="btn btn-primary"> Go somewhere</a>
+           <a href="logout.php" class="btn btn-primary">Logout</a>
            </div>
            </div>
 
