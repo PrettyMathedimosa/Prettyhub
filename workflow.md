@@ -223,6 +223,7 @@ date 15/03/2024
 -create database using  sql table
 -session start
 -logout page file link with home page
+-create table (home.php)
 
 
 
