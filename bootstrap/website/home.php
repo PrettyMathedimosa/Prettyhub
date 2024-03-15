@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(isset($_SESSION['username']) && isset($_SESSION['id']))
+
+?>
+
+
 <!DOCTYPE html>
    <html lang="en">
     <meta charset="utf-8">
@@ -20,7 +27,7 @@
            <a href="#" class="btn btn-primary"> Go somewhere</a>
            </div>
            </div>
-           
+
          }
          ?>
 
