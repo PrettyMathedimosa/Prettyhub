@@ -225,6 +225,9 @@ date 15/03/2024
 -logout page file link with home page
 -create table (home.php)
 
+date 18/03/2024
+-fixing home page (home.php)
+
 
 
 
