@@ -228,6 +228,8 @@ date 15/03/2024
 date 18/03/2024
 -fixing home page (home.php)
 -created members page (members.php)
+-include db_connect into home page
+-SQL statement inside if statement taste all variable are correct
 
 
 
