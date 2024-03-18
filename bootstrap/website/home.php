@@ -32,9 +32,13 @@ if(isset($_SESSION['username']) && isset($_SESSION['id']))
            </div>
            </div>
 
-         }
-         ?>
+        
          <div class="p-3">
+            <?php include 'php/members.php';
+            if(mysqli_num_rows($res) > 0) {?
+            }
+            ?>
+
          <h5 class="display-4 fs-1">Members</h5>
          <table class="table">
            <thead>
@@ -46,19 +50,24 @@ if(isset($_SESSION['username']) && isset($_SESSION['id']))
             </tr>
             </thead>
             <tbody>
+               <?php
+               while ($rows = mysqli_fetch_assoc($res)){?>
               <tr>
                 <th scope="row">1</th>
                 <td>Mark</td>
-                <td>Mark</td>
-                <td>Mark</td>
+                <td>Otto</td>
+                <td>John</td>
                </tr>
              </tbody>
-                </table>
-                </div>
+          </table>
+          </div>
 
 
-         <h1> Hello World </h1>
+         
     </div>
 
 </body>
 </html>
+<?php }else{
+     header("Location: index.php");
+}
