@@ -22,15 +22,16 @@ if(isset($_SESSION['username']) && isset($_SESSION['id']))
          <?php if($_SESSION['role'] == 'admin'){
            //for admin
            <div class ="card" style="width:15rem;">
-           <div class ="card-body">
-           <h2 class="card-title"> Card title
-               <?=$_SESSION['name']?>
-           </h2>
-           <p class="card-text">some card text and make up the bulk of the card content</p>
+              <div class ="card-body">
+                <h2 class="card-title"> Card title
+                  <?=$_SESSION['name']?>
+                </h2>
+                 <p class="card-text">some card text and make up the bulk of the card content</p>
 
-           <a href="logout.php" class="btn btn-primary">Logout</a>
+                   <a href="logout.php" class="btn btn-primary">Logout</a>
+               </div>
            </div>
-           </div>
+           }
 
         
          <div class="p-3">
@@ -51,16 +52,32 @@ if(isset($_SESSION['username']) && isset($_SESSION['id']))
             </thead>
             <tbody>
                <?php
-               while ($rows = mysqli_fetch_assoc($res)){?>
+               $i = 1;
+               while ( $rows = mysqli_fetch_assoc($res)){?>
               <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>John</td>
+                <th scope="row"><?=$i?></th>
+                <td><?=$rows['name']?></td>
+                <td><?=$rows['username']?></td>
+                <td><?=$rows['role']?></td>
                </tr>
+               <?php $i++;}?>
              </tbody>
           </table>
+          <?php}?>
           </div>
+
+          <?php}else { ?>
+               //for users
+               <div class="card" style="width:18rem;">
+                   <div class="card-body text-center">
+                     <h6 class="card-title">
+                        <?=$_SESSION['user']?>
+                     </h6>
+                       <p class="card-text">some card text and make up the bulk of the card content</p>
+
+                       <a href="logout.php" class="btn btn-primary">Logout</a>
+                    </div>
+               </div>
 
 
          
