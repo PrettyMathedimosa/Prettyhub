@@ -64,7 +64,7 @@ if(isset($_SESSION['username']) && isset($_SESSION['id']))
              </tbody>
           </table>
           <?php}?>
-          </div>
+        </div>
 
           <?php}else { ?>
                //for users
