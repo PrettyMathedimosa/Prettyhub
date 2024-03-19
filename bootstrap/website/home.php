@@ -20,7 +20,7 @@ if(isset($_SESSION['username']) && isset($_SESSION['id']))
          style="min-height:100vh">
 
          <?php if($_SESSION['role'] == 'admin'){
-           //for admin
+             //for admin
            <div class ="card" style="width:15rem;">
               <div class ="card-body">
                 <h2 class="card-title"> Card title
