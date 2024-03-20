@@ -236,7 +236,7 @@ date 19/03/2024
 -used sql statement for order by id and arrange in ascending order
 
 date 20/03/2024
--database 
+-created database my_db
 
 
 
