@@ -236,7 +236,8 @@ date 19/03/2024
 -used sql statement for order by id and arrange in ascending order
 
 date 20/03/2024
--created database my_db
+-created database my_db on phpmyadmin
+-table name users 
 
 
 
