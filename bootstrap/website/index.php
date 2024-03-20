@@ -16,7 +16,7 @@
             action="php/check-login.php"
             method="post"
                style="width:450px;">
-               <h1 class="text-center p-3">LOGIN</h1>
+               <h1 class="text-center p-3"> LOGIN </h1>
                <?php if(isset($_GET['error'])){?>
                <div class="alert alert-danger" role="alert">
                   <?=$_GET['error']?>
