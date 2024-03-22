@@ -240,6 +240,23 @@ date 20/03/2024
 -table name users
 -entities id, user,admin ,username ,password
 
+date 22/03/2024
+-Languages
+
+-Python
+*advantages
+*disadvantages
+*knowledge
+*achievement
+
+-Java
+*advantages
+*disadvantages
+*knowledge
+*achievement
+
+
+
 
 
 
