@@ -258,6 +258,7 @@ date 22/03/2024
 date 25/03/2024
 -discussion on the two langauges java and python
 -installed python extensions
+-installed code runner extension
 
 
 
