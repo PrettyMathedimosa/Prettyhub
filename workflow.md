@@ -255,6 +255,9 @@ date 22/03/2024
 *knowledge
 *achievement
 
+date 25/03/2024
+-discussion on the two langauges java and python
+
 
 
 
