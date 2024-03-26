@@ -9,10 +9,12 @@ print(f'Sum of {a} and {b} is {sum(a,b)}')
 
 
 
-
-
-
-
 greeting = 'hello there'
-
 print(greeting)
+
+x = "python"
+y = "is"
+z = "awesome"
+
+print(x,y,z)
+
