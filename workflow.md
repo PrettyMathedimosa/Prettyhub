@@ -259,7 +259,10 @@ date 25/03/2024
 -discussion on the two langauges java and python
 -installed python extensions
 -installed code runner extension
--first python tutorial (introduction.py) 
+-first python tutorial (introduction.py)
+
+date 26/03/2024
+-fixing python interpreter
 
 
 
