@@ -263,6 +263,7 @@ date 25/03/2024
 
 date 26/03/2024
 -fixing python interpreter
+-download python
 
 
 
