@@ -6,4 +6,13 @@ b = int(input('Enter second number: '))
 
 print(f'Sum of {a} and {b} is {sum(a,b)}')
 
-print("hello there")
+
+
+
+
+
+
+
+greeting = 'hello there'
+
+print(greeting)
