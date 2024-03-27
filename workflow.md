@@ -265,6 +265,10 @@ date 26/03/2024
 -fixing python interpreter
 -download python
 
+date 27/03/2024
+-variables names and global variables
+-comments
+
 
 
 

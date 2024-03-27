@@ -18,3 +18,16 @@ z = "awesome"
 
 print(x,y,z)
 
+
+
+#This is a comment
+x = 5
+y = "john"
+print(x)
+print(y)
+
+x = "wonderful"
+def myfunc():
+    print("python is " + x)
+myfunc()
+
