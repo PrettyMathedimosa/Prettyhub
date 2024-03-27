@@ -51,4 +51,8 @@ if b > a:
 else:
     print("b is not greater than a")
 
+thisset = {"apple","banana","cherry"}
+for x in thisset:
+    print(x)
+
 

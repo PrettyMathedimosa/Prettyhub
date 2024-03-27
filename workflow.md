@@ -270,6 +270,7 @@ date 27/03/2024
 -comments
 -data type
 -if statement comparing variables
+-loop items
 
 
 
