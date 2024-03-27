@@ -271,6 +271,7 @@ date 27/03/2024
 -data type
 -if statement comparing variables
 -loop items
+-dictionary
 
 
 
