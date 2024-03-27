@@ -39,3 +39,9 @@ b = ("apple","banana","cherry")  #tuple
 w = range(6)                      #range
 p = {"name" : "pretty", "age" : "25"}  #dict
 t = True  #boolean
+t = frozenset({"apple","banana","cherry"})  #frozenset
+u  = b"hello"   #bytes
+q = bytearray(9)   #bytearray
+o  = memoryview(bytes(6))   #memoryview
+
+
