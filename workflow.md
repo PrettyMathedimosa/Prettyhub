@@ -268,6 +268,7 @@ date 26/03/2024
 date 27/03/2024
 -variables names and global variables
 -comments
+-data type
 
 
 
