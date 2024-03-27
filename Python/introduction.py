@@ -44,4 +44,11 @@ u  = b"hello"   #bytes
 q = bytearray(9)   #bytearray
 o  = memoryview(bytes(6))   #memoryview
 
+a = 200
+b = 33
+if b > a:
+    print("b is geater than a")
+else:
+    print("b is not greater than a")
+
 

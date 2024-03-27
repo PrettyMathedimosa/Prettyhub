@@ -269,6 +269,7 @@ date 27/03/2024
 -variables names and global variables
 -comments
 -data type
+-if statement comparing variables
 
 
 
