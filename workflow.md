@@ -273,6 +273,10 @@ date 27/03/2024
 -loop items
 -dictionary
 
+date 28/03/2024
+-uppercase
+-lowercase
+
 
 
 

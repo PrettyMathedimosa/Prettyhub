@@ -63,3 +63,7 @@ thisdict = {
 print(thisdict)
 
 
+a = "hello , world!"
+print(a.upper)
+
+
