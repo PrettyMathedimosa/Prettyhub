@@ -76,4 +76,8 @@ while i < 6:
     print(i)
     i += 1
 
+def my_function():
+    print("Hello from a function")
+my_function()
+
 
