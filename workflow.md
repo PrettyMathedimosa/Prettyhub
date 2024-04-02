@@ -281,6 +281,7 @@ date 02/04/2024
 -change item value
 -while loop
 -calling a function
+-lambda function
 
 
 
