@@ -67,3 +67,8 @@ a = "hello , world!"
 print(a.upper)
 
 
+thislist =["apple","banana","cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+
+
