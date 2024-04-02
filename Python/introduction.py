@@ -71,4 +71,9 @@ thislist =["apple","banana","cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+
 
