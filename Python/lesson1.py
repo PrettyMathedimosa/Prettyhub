@@ -52,7 +52,15 @@ if __name__ == '_main_':
     inprompt = input()
     endtime = time()
 
-    #
+    #collect all information returned by the function
+    time = record(elapsedtime(starttime,endtime),2)
+    speed = speed(inprompt,starttime,endtime)
+    errors = tperror(prompt)
+
+    #printing all required data
+    print("Total time elapsed: ",time,"seconds")
+    print("Average typing speed was ", speed, "words per minutes")
+    print("with the total of ",errors, "errors")
 
 
 
