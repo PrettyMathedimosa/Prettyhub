@@ -34,3 +34,15 @@ def speed(inprompt, starttime ,endtime):
     speed = twords / time
 
     return speed
+
+#claculate the total elaped time
+def elaspsedtime(starttime,endtime):
+    time = endtime - starttime
+    return time
+
+if __name__ == '_main_':
+    prompt = "Python is an interpreter, high-level, general-purpose programming language"
+    print("Type this:-",prompt,"")
+
+    
+
