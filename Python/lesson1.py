@@ -44,5 +44,15 @@ if __name__ == '_main_':
     prompt = "Python is an interpreter, high-level, general-purpose programming language"
     print("Type this:-",prompt,"")
 
-    
+    #checking to input enter basically it will see
+    input("Press enter when you are ready to check your speed")
+
+    #record the time for input
+    starttime = time()
+    inprompt = input()
+    endtime = time()
+
+    #
+
+
 

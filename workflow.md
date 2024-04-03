@@ -288,6 +288,7 @@ date 03/04/2024
 -calculate accuracy of input prompt 
 -calculate speed of typing words per minutes
 -claculate the total elaped time
+-record the time for input
 
 
 
