@@ -283,6 +283,9 @@ date 02/04/2024
 -calling a function
 -lambda function
 
+date 03/04/2024
+-create typing fast game
+
 
 
 
