@@ -18,3 +18,19 @@ def tperror(prompt):
             if inwords[i] == words[i]:
                 if(inwords[i+1]) == words[i+1] & (inwords[i+1] == words[i-1]):
                     continue
+                else:
+                    errors += 1
+            else:
+                errors += 1
+    return errors
+
+#calculate speed of typing words per minutes
+def speed(inprompt, starttime ,endtime):
+    global time
+    global inwords
+
+    inwords = inprompt.split()
+    twords = len(inwords)
+    speed = twords / time
+
+    return speed

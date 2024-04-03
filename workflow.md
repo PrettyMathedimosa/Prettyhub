@@ -286,6 +286,7 @@ date 02/04/2024
 date 03/04/2024
 -create typing fast game
 -calculate accuracy of input prompt 
+-calculate speed of typing words per minutes
 
 
 
