@@ -13,5 +13,11 @@ def main():
 class windows1:
     def _init_(self,master):
         self.master = master
-        self.master.title("Phatmacy Management System")
+        self.master.title("Pharmacy Management System")
         self.master.geometry('1350X750+0+0')
+        self.frame = Frame(self.master)
+        self.frame.pack()
+
+        self.LabelTitle = Label(self.frame,text = "Pharmacy Management Sytem",font = ("arial",40,"bold")),
+
+
