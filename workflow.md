@@ -292,6 +292,7 @@ date 03/04/2024
 
 date 04/04/2024
 -fixing errors on lesson1
+-create hospital management system with multiple windows
 
 
 
