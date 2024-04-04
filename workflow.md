@@ -290,6 +290,9 @@ date 03/04/2024
 -claculate the total elaped time
 -record the time for input
 
+date 04/04/2024
+-fixing errors on lesson1
+
 
 
 
