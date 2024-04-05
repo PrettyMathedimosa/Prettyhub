@@ -295,6 +295,9 @@ date 04/04/2024
 -create hospital management system with multiple windows
 -coordinators(location)
 
+date 05/04/2024
+-set label
+
 
 
 
