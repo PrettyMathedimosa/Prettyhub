@@ -30,3 +30,8 @@ class windows1:
         self.frame = Frame(self.master)
         self.frame.pack()
 
+        self.LabelTitle = Label(self.frame,text = "Pharmacy Management System",font =("arial",40,"bold"),
+                                bd = 10,relief ="sunken")
+        self.LabelTitle.grid(row = 0,column =0,columnspan =2,pady=20)
+        
+
