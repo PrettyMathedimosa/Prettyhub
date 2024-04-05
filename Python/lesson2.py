@@ -33,5 +33,7 @@ class windows1:
         self.LabelTitle = Label(self.frame,text = "Pharmacy Management System",font =("arial",40,"bold"),
                                 bd = 10,relief ="sunken")
         self.LabelTitle.grid(row = 0,column =0,columnspan =2,pady=20)
+        self.Loginframe1 = frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
+        self.Loginframe1.grid(row = 0,column = 0)
         
 
