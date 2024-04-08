@@ -69,8 +69,16 @@ class windows5:
                                 bd = 10,relief ="sunken")
         self.LabelTitle.grid(row = 0,column =0,columnspan =2,pady=20)
 
-        self.Loginframe1 = frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
+        self.Loginframe1 = Frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
         self.Loginframe1.grid(row = 0,column = 0)
+
+        self.Loginframe2 = Frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
+        self.Loginframe2.grid(row = 2,column = 0)
+
+        self.Loginframe3 = Frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
+        self.Loginframe3.grid(row = 6,column = 0)
+
+        
 
         
         

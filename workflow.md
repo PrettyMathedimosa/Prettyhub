@@ -300,6 +300,9 @@ date 05/04/2024
 -set width, height,relif,bd
 -create windows
 
+date 08/04/2024
+-Create all frames for loginframe with measurements
+
 
 
 
