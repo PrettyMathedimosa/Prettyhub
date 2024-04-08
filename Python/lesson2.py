@@ -94,6 +94,21 @@ class windows5:
                                  command = self.Medicine_stock)
         self.button_med_stock.grid(row = 4, column = 0, padx = 10, pady = 10)
 
+    #define the windows
+    def Registration_window(self):
+        self.newWindow = Toplevel(self.master)
+        self.app = window2(self.newWindow)
+
+    def Hospital_window(self):
+        self.newWindow = Toplevel(self.master)
+        self.app = window3(self.newWindow)
+
+    def Dr_Apoint_window(self):
+        self.newWindow = Toplevel(self.master)
+        self.app = window4(self.newWindow)
+
+    
+
         
 
         
