@@ -69,14 +69,30 @@ class windows5:
                                 bd = 10,relief ="sunken")
         self.LabelTitle.grid(row = 0,column =0,columnspan =2,pady=20)
 
-        self.Loginframe1 = Frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
+        self.Loginframe1 = Frame(self.frame,width = 1000,height = 300,bd = 10,relief = "groove")
         self.Loginframe1.grid(row = 0,column = 0)
 
-        self.Loginframe2 = Frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
-        self.Loginframe2.grid(row = 2,column = 0)
+        self.Loginframe2 = Frame(self.frame,width = 1000,height = 100,bd = 10,relief = "groove")
+        self.Loginframe2.grid(row = 2,column = 0, pady = 15)
 
-        self.Loginframe3 = Frame(self.frame,width = 100,height = 200,bd = 10,relief = "groove")
-        self.Loginframe3.grid(row = 6,column = 0)
+        self.Loginframe3 = Frame(self.frame,width = 1000,height = 200,bd = 10,relief = "groove")
+        self.Loginframe3.grid(row = 6,column = 0, pady = 5)
+
+        self.button_reg = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
+                                 command = self.Registration_window)
+        self.button_reg.grid(row = 0, column = 0, padx = 10, pady = 10)
+
+        self.button_hosp = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
+                                 command = self.Registration_window)
+        self.button_hosp.grid(row = 0, column = 0, padx = 10, pady = 10)
+
+        self.button_dr_appt = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
+                                 command = self.Registration_window)
+        self.button_dr_appt.grid(row = 0, column = 0, padx = 10, pady = 10)
+
+        self.button_med_stock = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
+                                 command = self.Registration_window)
+        self.button_med_stock.grid(row = 0, column = 0, padx = 10, pady = 10)
 
         
 
