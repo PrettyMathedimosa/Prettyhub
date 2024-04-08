@@ -80,19 +80,19 @@ class windows5:
 
         self.button_reg = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
                                  command = self.Registration_window)
-        self.button_reg.grid(row = 0, column = 0, padx = 10, pady = 10)
+        self.button_reg.grid(row = 1, column = 0, padx = 10, pady = 10)
 
         self.button_hosp = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
-                                 command = self.Registration_window)
-        self.button_hosp.grid(row = 0, column = 0, padx = 10, pady = 10)
+                                 command = self.Hospital_window)
+        self.button_hosp.grid(row = 2, column = 0, padx = 10, pady = 10)
 
-        self.button_dr_appt = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
-                                 command = self.Registration_window)
-        self.button_dr_appt.grid(row = 0, column = 0, padx = 10, pady = 10)
+        self.button_Dr_appt = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
+                                 command = self.Dr_Apoint_window)
+        self.button_Dr_appt.grid(row = 3, column = 0, padx = 10, pady = 10)
 
         self.button_med_stock = Button(self.Loginframe3,text = "Patient registration window",font = ("arial",15,"bold"),
-                                 command = self.Registration_window)
-        self.button_med_stock.grid(row = 0, column = 0, padx = 10, pady = 10)
+                                 command = self.Medicine_stock)
+        self.button_med_stock.grid(row = 4, column = 0, padx = 10, pady = 10)
 
         
 
