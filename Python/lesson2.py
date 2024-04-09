@@ -110,6 +110,9 @@ class windows5:
         self.textPassword = Entry(self.Loginframe1,font = ("arial",20,"bold"),show = "*",bd = 3,textvariable = self.Password)
         self.textPassword.grid(row = 1,column = 1,padx =40,pady =15)
 
+        self.button_login = Button(self.Loginframe2,text = "Login",width = 20,font = ("arial",18,"bold"))
+        self.button_login.grid(row = 0,column = 0,padx = 10,pady = 10)
+
     #define the windows
     def Registration_window(self):
         self.newWindow = Toplevel(self.master)
