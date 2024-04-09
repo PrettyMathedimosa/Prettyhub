@@ -18,6 +18,8 @@ class windows1:
         self.frame = Frame(self.master)
         self.frame.pack()
 
+
+
         self.LabelTitle = Label(self.frame,text = "Pharmacy Management Sytem",font = ("arial",40,"bold"),
             bd = 10,relief = "sunken")
         self.LabelTitle.grid(row = 0,column = 0,columnspan = 2,pady = 20)
@@ -99,25 +101,28 @@ class windows5:
         self.LabelUsername = Label(self.Loginframe1,text = "user name",font =("arial",20,"bold"),bd = 3)
         self.LabelUsername.grid(row = 0,column = 0)
 
+        self.textUsername = Entry(self.Loginframe1,font = ("arial",20,"bold"),bd = 3,textvariable = self.Username)
+        self.textUsername.grid(row = 0,column = 1,padx =40,pady =15)
+
         self.LabelPassword = Label(self.Loginframe1,text = " Password",font =("arial",20,"bold"),bd = 3)
         self.LabelPassword.grid(row = 1,column = 0)
 
     #define the windows
     def Registration_window(self):
         self.newWindow = Toplevel(self.master)
-        self.app = window1(self.newWindow)
+        self.app = windows1(self.newWindow)
 
     def Hospital_window(self):
         self.newWindow = Toplevel(self.master)
-        self.app = window2(self.newWindow)
+        self.app = windows2(self.newWindow)
 
     def Dr_Apoint_window(self):
         self.newWindow = Toplevel(self.master)
-        self.app = window3(self.newWindow)
+        self.app = windows3(self.newWindow)
 
     def Medicine_window(self):
         self.newWindow = Toplevel(self.master)
-        self.app = window4(self.newWindow)
+        self.app = windows4(self.newWindow)
 
     
 
