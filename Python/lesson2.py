@@ -128,6 +128,12 @@ class windows5:
             self.button_Hosp.config(state = NORMAL)
             self.button_Dr_appt.config(state = NORMAL)
             self.button_med_stock.config(state = NORMAL)
+        else:
+            self.button_reg.config(state = DISABLED)
+            self.button_reg.config(state = DISABLED)
+            self.button_reg.config(state = DISABLED)
+            self.button_reg.config(state = DISABLED)
+
 
     #define the windows
     def Registration_window(self):
