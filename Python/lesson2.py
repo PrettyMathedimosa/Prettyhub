@@ -113,6 +113,12 @@ class windows5:
         self.button_login = Button(self.Loginframe2,text = "Login",width = 20,font = ("arial",18,"bold"))
         self.button_login.grid(row = 0,column = 0,padx = 10,pady = 10)
 
+        self.button_Reset = Button(self.Loginframe2,text = "Login",width = 20,font = ("arial",18,"bold"))
+        self.button_Reset.grid(row = 0,column = 0,padx = 10,pady = 10)
+
+        self.button_Exit = Button(self.Loginframe2,text = "Login",width = 20,font = ("arial",18,"bold"))
+        self.button_Exit.grid(row = 0,column = 0,padx = 10,pady = 10)
+
     #define the windows
     def Registration_window(self):
         self.newWindow = Toplevel(self.master)
