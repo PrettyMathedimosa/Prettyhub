@@ -107,6 +107,9 @@ class windows5:
         self.LabelPassword = Label(self.Loginframe1,text = " Password",font =("arial",20,"bold"),bd = 3)
         self.LabelPassword.grid(row = 1,column = 0)
 
+        self.textPassword = Entry(self.Loginframe1,font = ("arial",20,"bold"),show = "*",bd = 3,textvariable = self.Password)
+        self.textPassword.grid(row = 1,column = 1,padx =40,pady =15)
+
     #define the windows
     def Registration_window(self):
         self.newWindow = Toplevel(self.master)

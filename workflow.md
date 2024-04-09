@@ -307,7 +307,9 @@ date 08/04/2024
 -username and password frame 
 
 date 09/04/2024
--add text username frame
+-add text username frame 
+-text password frame
+-hidden password 
 
 
 
