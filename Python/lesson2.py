@@ -99,7 +99,7 @@ class windows5:
         self.LabelUsername = Label(self.Loginframe1,text = "user name",font =("arial",20,"bold"),bd = 3)
         self.LabelUsername.grid(row = 0,column = 0)
 
-        self.LabelPassword = Label(self.Loginframe1,text = "Password",font =("arial",20,"bold"),bd = 3)
+        self.LabelPassword = Label(self.Loginframe1,text = " Password",font =("arial",20,"bold"),bd = 3)
         self.LabelPassword.grid(row = 1,column = 0)
 
     #define the windows
