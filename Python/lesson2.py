@@ -140,6 +140,13 @@ class windows5:
             self.Password.set("")
             self.textUsername.focus()
 
+        def reset_btn(self):
+            self.button_reg.config(state = DISABLED)
+            self.button_Hosp.config(state = DISABLED)
+            self.button_Dr_appt.config(state = DISABLED)
+            self.button_med_stock.config(state = DISABLED)
+
+
 
     #define the windows
     def Registration_window(self):
