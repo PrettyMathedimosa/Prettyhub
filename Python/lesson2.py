@@ -110,7 +110,7 @@ class windows5:
         self.textPassword = Entry(self.Loginframe1,font = ("arial",20,"bold"),show = "*",bd = 3,textvariable = self.Password)
         self.textPassword.grid(row = 1,column = 1,padx =40,pady =15)
 
-        self.button_login = Button(self.Loginframe2,text = "Login",width = 20,font = ("arial",18,"bold"))
+        self.button_login = Button(self.Loginframe2,text = "Login",width = 20,font = ("arial",18,"bold"),command = self.login_system)
         self.button_login.grid(row = 0,column = 0,padx = 10,pady = 10)
 
         self.button_Reset = Button(self.Loginframe2,text = "Reset",width = 20,font = ("arial",18,"bold"))
@@ -129,11 +129,16 @@ class windows5:
             self.button_Dr_appt.config(state = NORMAL)
             self.button_med_stock.config(state = NORMAL)
         else:
+            #invalid username or password
             tkinter.messagebox.askyesno("Pharmacy Management System","Invalid user name or password")
             self.button_reg.config(state = DISABLED)
             self.button_Hosp.config(state = DISABLED)
             self.button_Dr_appt.config(state = DISABLED)
             self.button_med_stock.config(state = DISABLED)
+
+            self.Username.set("")
+            self.Password.set("")
+            self.textUsername.focus()
 
 
     #define the windows
