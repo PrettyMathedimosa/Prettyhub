@@ -312,6 +312,11 @@ date 09/04/2024
 -hidden password 
 -login button ,reset and exit
 
+date 10/04/2024
+-disabled the doctor,medicine,hosp and registration buttons
+-if password and user is void disabled buttons
+-else buttons are normal
+
 
 
 

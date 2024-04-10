@@ -129,10 +129,11 @@ class windows5:
             self.button_Dr_appt.config(state = NORMAL)
             self.button_med_stock.config(state = NORMAL)
         else:
+            tkinter.messagebox.askyesno("Pharmacy Management System","Invalid user name or password")
             self.button_reg.config(state = DISABLED)
-            self.button_reg.config(state = DISABLED)
-            self.button_reg.config(state = DISABLED)
-            self.button_reg.config(state = DISABLED)
+            self.button_Hosp.config(state = DISABLED)
+            self.button_Dr_appt.config(state = DISABLED)
+            self.button_med_stock.config(state = DISABLED)
 
 
     #define the windows
