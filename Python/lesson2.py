@@ -146,6 +146,12 @@ class windows5:
             self.button_Dr_appt.config(state = DISABLED)
             self.button_med_stock.config(state = DISABLED)
 
+            #invalid user id and password
+            self.Username.set("")
+            self.Password.set("")
+            self.textUsername.focus()
+
+
 
 
     #define the windows
