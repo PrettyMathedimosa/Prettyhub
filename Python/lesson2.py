@@ -151,6 +151,10 @@ class windows5:
             self.Password.set("")
             self.textUsername.focus()
 
+        def Exit_btn(self):
+            self.Exit_btn = tkinter.messagebox.askyesno("Pharmacy Management System","want to exit")
+            
+
 
 
 
