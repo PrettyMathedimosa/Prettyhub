@@ -140,20 +140,22 @@ class windows5:
             self.Password.set("")
             self.textUsername.focus()
 
-        def reset_btn(self):
-            self.button_reg.config(state = DISABLED)
-            self.button_Hosp.config(state = DISABLED)
-            self.button_Dr_appt.config(state = DISABLED)
-            self.button_med_stock.config(state = DISABLED)
+    def reset_btn(self):
+        self.button_reg.config(state = DISABLED)
+        self.button_Hosp.config(state = DISABLED)
+        self.button_Dr_appt.config(state = DISABLED)
+        self.button_med_stock.config(state = DISABLED)
 
-            #invalid user id and password
-            self.Username.set("")
-            self.Password.set("")
-            self.textUsername.focus()
+        #invalid user id and password
+        self.Username.set("")
+        self.Password.set("")
+        self.textUsername.focus()
 
-        def Exit_btn(self):
-            self.Exit_btn = tkinter.messagebox.askyesno("Pharmacy Management System","want to exit")
-            if self
+    def Exit_btn(self):
+        self.Exit_btn = tkinter.messagebox.askyesno("Pharmacy Management System","want to exit")
+        if self.Exit_btn > 0:
+            self.master.destroy()
+            return
             
 
 

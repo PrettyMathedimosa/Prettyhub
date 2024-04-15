@@ -324,6 +324,9 @@ date 11/04/2024
 date 12/04/2024
 - create Exit button 
 
+date 15/04/2024
+-if exit button greater than zero master destroy 
+
 
 
 
