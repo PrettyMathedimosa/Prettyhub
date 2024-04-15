@@ -327,6 +327,7 @@ date 12/04/2024
 date 15/04/2024
 -if exit button greater than zero master destroy
 -create patient window for registration 
+-title
 
 
 
