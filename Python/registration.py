@@ -23,6 +23,7 @@ class Registration:
 
         #text, label, combobox in manage frame
         Cus_title = Label(Manage_Frame,text= "Customer Details",font = ("arail",20,"bold"))
+        
 
 
 if _name_ == "_main_":
