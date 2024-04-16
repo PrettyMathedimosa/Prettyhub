@@ -329,6 +329,9 @@ date 15/04/2024
 -create patient window for registration 
 -title
 
+date 13/04/2024
+-create member frame 
+
 
 
 
