@@ -19,7 +19,10 @@ class Registration:
 
         #member frame
         Manage_Frame = Frame(self.root,bd = 4,relief=RIDGE,BG = "#001a66")
-        Manage_Frame.place(x = 20,y = 100,width=450,height=630)
+        Manage_Frame.place(x = 20,y = 100,width=450,height=630 )
+
+        #text, label, combobox in manage frame
+        Cus_title = Label(Manage_Frame,text= "Customer Details",font = ("arail",20,"bold"))
 
 
 if _name_ == "_main_":

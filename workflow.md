@@ -330,7 +330,8 @@ date 15/04/2024
 -title
 
 date 13/04/2024
--create member frame 
+-create member frame
+-text, label, combobox in manage frame 
 
 
 
