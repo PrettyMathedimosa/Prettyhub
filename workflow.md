@@ -329,11 +329,11 @@ date 15/04/2024
 -create patient window for registration 
 -title
 
-date 13/04/2024
+date 16/04/2024
 -create member frame
 -text, label, combobox in manage frame 
 
-date 14/04/2024
+date 17/04/2024
 -display current date and time for member registration
 -member id reference
 -member date of registration
