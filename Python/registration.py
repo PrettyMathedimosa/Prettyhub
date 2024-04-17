@@ -40,7 +40,7 @@ class Registration:
         member_reflbl.grid(row = 2,column = 0,pady= 5,padx = 10,sticky= "w")
 
         member_reftxt = Entry(Manage_Frame,font = ("arail",15,"bold"),state = DISABLED,TEXT = Ref)
-        member_reftxt.grid(row = 2,column = 1,pady = 5,padx = 10,sticky="w")
+        member_reftxt.grid(row = 2,column = 1,pady = 5,padx = 10,sticky ="w")
 
 
 
