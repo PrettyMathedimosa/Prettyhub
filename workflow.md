@@ -338,6 +338,7 @@ date 17/04/2024
 -member id reference
 -member date of registration
 -member
+-detail frame
 
 
 

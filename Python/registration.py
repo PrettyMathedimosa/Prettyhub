@@ -39,6 +39,16 @@ class Registration:
                               ,bg = "#001a66",fg = "white")
         member_reflbl.grid(row = 2,column = 0,pady= 5,padx = 10,sticky= "w")
 
+        member_reftxt = Entry(Manage_Frame,font = ("arail",15,"bold"),state = DISABLED,TEXT = Ref)
+        member_reftxt.grid(row = 2,column = 1,pady = 5,padx = 10,sticky="w")
+
+
+
+
+        #datail frame
+        detail_frame = Frame(self,root,relief = RIDGE,bg ="#001a66")
+        detail_frame.place(x = 500,y = 100,width= 820,height =630)
+
 
 
 
