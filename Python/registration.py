@@ -29,8 +29,13 @@ class Registration:
         Cus_title = Label(Manage_Frame,text= "Customer Details",font = ("arail",20,"bold"),bg = "#001a66",fg = "white" )
         Cus_title.grid(row = 0,columnspan = 2,pady = 5)
 
-        member_datelbl = Label(Manage_Frame,font = ("arail",15,"bold"),textvariable = Date_of_registration)
+        member_datelbl = Label(Manage_Frame,text ="Date",font= ("arail",15,"bold"),bg ="#001a66",fg ="white")
         member_datelbl.grid(row =1,column = 0,pady = 5 ,padx = 10,sticky = "w")
+
+        member_datetxt = Entry(Manage_Frame,font=("arail",15,"bold"),textvariable = Date_of_registration)
+        member_datetxt.grid(row = 1,column = 1,pady = 5,padx = 10,sticky="w")
+
+        
 
 
 if _name_ == "_main_":
