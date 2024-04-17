@@ -35,7 +35,11 @@ class Registration:
         member_datetxt = Entry(Manage_Frame,font=("arail",15,"bold"),textvariable = Date_of_registration)
         member_datetxt.grid(row = 1,column = 1,pady = 5,padx = 10,sticky="w")
 
-        
+        member_reflbl = Label(Manage_Frame,text = "Reference ID",font = ("arial",15,"bold")
+                              ,bg = "#001a66",fg = "white")
+        member_reflbl.grid(row = 2,column = 0,pady= 5,padx = 10,sticky= "w")
+
+
 
 
 if _name_ == "_main_":

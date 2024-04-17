@@ -334,7 +334,10 @@ date 13/04/2024
 -text, label, combobox in manage frame 
 
 date 14/04/2024
-- display current date and time for member registration
+-display current date and time for member registration
+-member id reference
+-member date of registration
+-member
 
 
 
