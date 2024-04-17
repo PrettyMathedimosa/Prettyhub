@@ -12,6 +12,10 @@ class Registration:
         self.root.geometry("1350X750+0+0")
         self.root.confiqure(background = "black")
 
+        #current datetime
+        Date_of_registration = StringVar()
+
+
 
         title = Label(self.root,text = "Member Registration Form",font = ("monotype corsiva",30,"bold"),bd = 5,
                       relief= GROOVE,bg = "#E6005C",fg = "#000000")
@@ -22,8 +26,11 @@ class Registration:
         Manage_Frame.place(x = 20,y = 100,width=450,height=630 )
 
         #text, label, combobox in manage frame
-        Cus_title = Label(Manage_Frame,text= "Customer Details",font = ("arail",20,"bold") )
+        Cus_title = Label(Manage_Frame,text= "Customer Details",font = ("arail",20,"bold"),bg = "#001a66",fg = "white" )
+        Cus_title.grid(row = 0,columnspan = 2,pady = 5)
 
+        member_datelbl = Label(Manage_Frame,font = ("arail",15,"bold"),textvariable = Date_of_registration)
+        member_datelbl.grid(row =1,column = 0,pady = 5 ,padx = 10,sticky = "w")
 
 
 if _name_ == "_main_":
