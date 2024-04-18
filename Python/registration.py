@@ -16,6 +16,13 @@ class Registration:
         Date_of_registration = StringVar()
         Date_of_registration.set(time.strftime("Xd/Xm/Xy")) 
 
+        Ref = StringVar()
+        Mobile_no = StringVar()
+        Pincode = StringVar()
+        Address = StringVar()
+        Firstname = StringVar()
+        Lastname = StringVar()
+
 
 
 

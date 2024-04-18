@@ -341,7 +341,8 @@ date 17/04/2024
 -detail frame
 
 date 18/04/2024
--
+-assign variables lastname,firstname,
+address,pincode,mobile no and ref
 
 
 
