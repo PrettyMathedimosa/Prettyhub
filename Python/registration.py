@@ -14,6 +14,8 @@ class Registration:
 
         #current datetime
         Date_of_registration = StringVar()
+        Date_of_registration.set(time.strftime("Xd/Xm/Xy")) 
+
 
 
 
