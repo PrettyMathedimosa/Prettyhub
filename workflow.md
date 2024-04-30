@@ -344,6 +344,32 @@ date 18/04/2024
 -assign variables lastname,firstname,
 address,pincode,mobile no and ref
 
+date 19/04/2024
+-member date and label
+
+
+date 22/04/2024
+-member gender(Male,female or other)
+
+date 23/04/2024
+-created member registration form with details date,reference,first name
+last name,mobile number,address,pin code ,gender, id proof,member type,membership fee
+
+date 24/04/2024
+-reception button
+
+date 25/04/2024
+-reset button
+
+date 26/04/2024
+-member payment
+
+date 29/04/2024
+-membership fee
+
+date 30/04/2024
+-exit button
+
 
 
 
