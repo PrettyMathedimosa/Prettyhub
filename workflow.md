@@ -373,6 +373,7 @@ date 30/04/2024
 date 13/05/2024
 -file lesson 4 for how to extract text from speech
 -create text file
+-open a file as text to convert it to speech
 
 date 14/05/2024
 -created file lesson 3 for email automation
