@@ -16,5 +16,11 @@ msg.attach(MIMEText(body,'plain'))
 email = " "
 password = " "
 
-mail = smtplib.SMTP('smtp.gmail.com',)
+mail = smtplib.SMTP('smtp.gmail.com',587)
+mail.ehlo()
+mail.startIs()
+mail.login(email,password)
+text = msg.as_string()
+mail.sendmail(from_addr,to_addr,text)
+mail.quit()
 
