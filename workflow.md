@@ -370,6 +370,30 @@ date 29/04/2024
 date 30/04/2024
 -exit button
 
+date 01/05/2024
+-
+
+date 02/05/2024
+-
+
+date 03/05/2024
+-
+
+date 06/05/2024
+-
+
+date 07/05/2024
+-
+
+date 08/05/2024
+-
+
+date 09/05/2024
+-
+
+date 10/05/2024
+-
+
 date 13/05/2024
 -file lesson 4 for how to extract text from speech
 -create text file
@@ -380,6 +404,43 @@ date 14/05/2024
 -send email to and from different emails
 -attach messages
 -password and email are encrapyed as login part
+
+date 15/05/2024
+-Research on explaining the different styles of the system development
+
+date 16/05/2024
+-Research on explaining the different styles and any software examples of each architecture
+(Architecture of a system)
+
+date 17/05/2024
+-How to convert pdf file to text file using python
+-initialize the number of pages
+-extract the text
+-open the file path way
+-write with text
+-close file
+
+date 20/05/2024
+-Digital clock
+-create the function times 
+-using the current time 
+-use label,font,root,column,pady ,row and padx
+
+date 21/05/2024
+-create CAPTCHA 
+-insert image and audio
+
+date 22/05/2024
+-create GUI calendar
+-using font consolas 10 bold
+-uses calendar of 2024
+
+date 23/05/2024
+-install folium
+-install pip requests
+-track location using IP address
+-longtitude and latitude location
+-create marker of the child
 
 
 
