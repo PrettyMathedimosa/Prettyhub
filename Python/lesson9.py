@@ -1,7 +1,7 @@
 import requests
 import folium
 
-res = requests.get('https://ipinfo.io/')
+res = requests.get(' https://ipinfo.io/')
 data = res.json()
 #print(data)
 location = data['loc'].split(',')

@@ -442,6 +442,9 @@ date 23/05/2024
 -longtitude and latitude location
 -create marker of the child
 
+date 24/05/2024
+-fixing the coordinatoor of longtitude and latitude
+
 
 
 
