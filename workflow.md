@@ -392,7 +392,7 @@ date 09/05/2024
 -
 
 date 10/05/2024
--
+- 
 
 date 13/05/2024
 -file lesson 4 for how to extract text from speech
@@ -444,6 +444,10 @@ date 23/05/2024
 
 date 24/05/2024
 -fixing the coordinatoor of longtitude and latitude
+
+date 27/05/2024
+-extension for folium
+-extension for pip requests
 
 
 
