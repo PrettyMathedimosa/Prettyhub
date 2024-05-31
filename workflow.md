@@ -371,28 +371,35 @@ date 30/04/2024
 -exit button
 
 date 01/05/2024
--
+-learnt about web development, django, 
+fastAPI,flask, tornado framework
 
 date 02/05/2024
--
+-cli development library argparse, click, typer,
+ kivy, pyqt, qt for python, tkinter
 
 date 03/05/2024
--
+-game development libraries arcade,
+ pygame, pyglet
 
 date 06/05/2024
--
+-Machine learning libraries keras, nltk,
+ pytorch, scikit-learn, tensorflow
 
 date 07/05/2024
--
+-Scientific computing libraries numpy, 
+scipy, simpy
 
 date 08/05/2024
--
+-Data analysis and visualization libraries bokeh, 
+dash, matplotlib, pandas, seaborn
 
 date 09/05/2024
--
+-Web scraping libraries beautiful soup, 
+requests, scrapy, urllib.requests
 
 date 10/05/2024
-- 
+--DevOps libraries ansible, docker, compose
 
 date 13/05/2024
 -file lesson 4 for how to extract text from speech
@@ -448,6 +455,19 @@ date 24/05/2024
 date 27/05/2024
 -extension for folium
 -extension for pip requests
+
+date 28/05/2024
+-DevOps libraries ansible, docker, compose
+
+date 29/05/2024
+-Development environment libraries conda, pip, pipenv, pipx, pyenv
+
+date 30/05/2024
+-Software packing and development libraries flit,
+ poetry, pyinstaller, setuptools, twine
+
+date 31/05/2024
+-Database systems libraries mongoengine, mysql connector python, psycopg, pymongo, sqlalchemy, sqlife3
 
 
 
