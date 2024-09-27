@@ -1,3 +1,9 @@
+<?php
+
+   @include 'index.php';
+   
+?>
+
 <!DOCTYPE html>
    <html lang="en">
     <head>
@@ -22,6 +28,28 @@
 
     
     </style>
+    <script>
+        function addcart() {
+            //product data
+            var cart = "cart1";
+            var picture_name = "Chair";
+            var price = 3000.99;
+
+            //create an AJAX request
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    alert(this.responseText); //show server response
+
+                }
+            };
+            xhttp.open("POST", "add_to_cart.php", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhttp.send("cart=" + cart + "&picture_name=" + picture_name + "&price=" + price);
+        }
+    </script>
+
+    
 
     <body style="background-color:beige">
         <div class="heading">
@@ -68,6 +96,7 @@
             
         </table>
         <div class="items">
+            
             <h2>Chair</h2>
             <p> This table has leather sit,
                 Quality 100%,five years grantee.
@@ -78,7 +107,7 @@
         <div class="price">
             <span>R3000</span>
             <br>
-            <button onclick="addcart">Add Cart</button>
+            <button onclick="addcart() ">Add Cart</button>
         </div>
 
         <div class="item">
@@ -91,7 +120,7 @@
         <div class ="price">
             <span>R5000</span>
             <br>
-            <button onclick="addcart">Add Cart</button>
+            <button onclick="addcart() ">Add Cart</button>
         </div>
 
         <div class="item">
@@ -104,7 +133,7 @@
         <div class ="price">
             <span>R10 000</span>
             <br>
-            <button onclick="addcart">Add Cart</button>
+            <button onclick="addcart() ">Add Cart</button>
         </div>
 
         <div class="item">
@@ -117,7 +146,7 @@
         <div class ="price">
             <span>R12 000</span>
             <br>
-            <button onclick="addcart">Add Cart</button>
+            <button onclick="addcart () ">Add Cart</button>
         </div>
 
         

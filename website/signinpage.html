@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
    <html lang="en">
     <meta charset="utf-8">
@@ -22,19 +24,23 @@
             </ul>
         </nav>
 
-        <form action="actionp">
-            <input  type="text" id="name" name="First Name" placeholder="First Name" size="40">
-            <br>
-            <input type="text" id="name" name="Last Name" placeholder="Last Name" size="40">
-            <br>
-            <input type="email" id="email" name="Email" placeholder="email@gmail.com" size="40">
-            <br>
-            <input type="password" id="password" name="Password" placeholder="Password" size="40">
-            <br>
-            <input type="confirm password" id="confirm password" name="confirm password" placeholder="Confirm Password" size="40">
-            <br>
-            <br>
-            <button type="Submit">Create your account</button>
+        <form action="create_account.php" method="POST">
+            <label for="first_name">First Name:</label>
+            <input  type="text"  name="first_name" required><br>
+            
+            <label for="last_name">Last Name:</label>
+            <input  type="text"  name="last_name" required><br>
+            
+            <label for="email">Email:</label>
+            <input  type="email"  name="email" required><br>
+            
+            <label for="password">Password:</label>
+            <input  type="password"  name="password" required><br>
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input  type="password"  name="confirm_password" required><br>
+            
+            <button type="submit">Create your account</button>
             <br>
 
             <br>
@@ -46,3 +52,4 @@
 
     </html>
     </body>
+

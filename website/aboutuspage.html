@@ -1,9 +1,29 @@
+
+
 <!DOCTYPE html>
    <html lang="en">
     <meta charset="utf-8">
     <head>
          <title> About Us </title>
+         <script>
+            function loadLearnMoreMessage() {
+                //new XMLHttpRequest object
+                var xhr = new XMLHttpRequest();
+                //
+                xhr.open('GET','get_learn_more.php', true);
+                //set up the onload event
+                xhr.onhold = function(){
+                    if (xhr.status === 200) {
+                        //insert message into html
+                        document.getElementById('learnMoreContent').innerHTML = xhr.responseText;
+                    }
+                };
+                //send request
+                xhr.send();
+            }
+         </script>
          <link rel="stylesheet" href="style.css">
+         
     </head>
 
     <body style="background-color:antiquewhite">
@@ -30,8 +50,10 @@
                         <br>and decoration and watching news,sports.    
                     </p>
 
-                    <button type="button">Learn More</button>
-                </font>
+                    <button type="button" onclick="loadLearnMoreMessage()">Learn More</button>
+                    <div id="learnMoreContent"></div>
+                       
+                        </font>
                 </div>
             </div>
         </section>
